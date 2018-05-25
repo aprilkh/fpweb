@@ -46,14 +46,16 @@
       </div>
 
       <div class="row marketing">
-        <div class="col-lg-5 col-sm-12">
+       <!-- <div class="col-lg-12 col-sm-12"> -->
           @yield ('section1')
-        </div>
-        <div class="col-lg-7 col-sm-12">
+        <!-- </div> -->
+        <div class="col-lg-12 col-sm-12">
           @yield ('section2')
         </div>
       </div>
     </div>
+
+    
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>

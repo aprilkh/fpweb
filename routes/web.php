@@ -39,7 +39,11 @@ Route::get('/coba', function () {
     return view('coba');
 });
 
-Route::get('/presentasi', function () {
-    return view('presentasi');
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/awal', function () {
+    return view('awal');
 });
 
