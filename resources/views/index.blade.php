@@ -4,14 +4,15 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MEONGGUK</title>
-<link rel="icon" href="/favicon.ico" type="image/x-icon" href="images/icons/favicon.png"/>
+<!-- <link src="images/icons/logo.png" alt="IMG-LOGO" data-logofixed="images/icons/logo2.png"> -->
+<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" type="text/css">
 <link href="/content/css/account.css?7" rel="stylesheet" type="text/css">
 </head>
 <style>
-body{background: #eee url(https://wallpapercave.com/wp/wp2432528.jpg);}
+body{background: #eee url(https://images.wallpaperscraft.com/image/dog_cat_blurring_grass_walk_66600_1920x1080.jpg);}
 html,body{
     position: relative;
     height: 100%;
@@ -152,12 +153,12 @@ html,body{
 		<div class="container">
 	<div class="login-container">
             <div id="output"></div>
-            <div class="avatar"></div>
+                <img src="images/icons/favicon.png" alt="Avatar" class="avatar">
             <div class="form-box">
                 <form action="awal" method="">
                     <input name="user" type="text" placeholder="username">
                     <input type="password" placeholder="password">
-                    <button class="btn btn-info btn-block login" type="submit">Login</button>
+                    <button class="btn btn-danger btn-block login" type="submit">Login</button>
                 </form>
             </div>
         </div>  
